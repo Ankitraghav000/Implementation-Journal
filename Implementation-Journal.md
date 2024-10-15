@@ -12,7 +12,7 @@ The goal of this journal is to document the process of creating a shell script (
 Before writing the script, it's essential to understand the dependencies and steps involved in installing Git on Ubuntu manually. These steps will include updating the package index, installing Git, and verifying the installation.
 
 ### 2. Prerequisites
-Ensure the system has:
+Ensure the user has:
 - Basic knowledge of editor (nano ,vim)
 - Basic knowledge of shell scripting (bash)
 - Root or sudo access for installing software
@@ -22,9 +22,9 @@ The shell script should perform the following actions:
 - Update the system package lists
 - Install Git
 - Verify the installation
-- Handle any potential errors
+
 ### 4. Set Up the Script File
-To begin, you'll need to create a new .sh script file. You can use any text editor available in Linux such as nano, vim, or gedit. Here, we will use nano to create the file.
+To begin, you will need to create a new .sh script file. You can use any text editor available in Linux such as nano, vim, or gedit. Here, we will use nano to create the file.
 
 Command:
 ```
